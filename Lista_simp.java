@@ -64,7 +64,15 @@ public class Lista_simp{
         l.addLast(1);
         l.addLast(2);
         l.addLast(3);
+
         l.addLast(4);
+
+        int iterar = 22;
+        for(int i=0;i<10;i++){
+            l.addFirst(iterar);
+            iterar+=1;
+        }
+
         l.leer();
 
     }
